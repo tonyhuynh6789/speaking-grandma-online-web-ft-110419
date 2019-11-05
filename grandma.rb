@@ -17,7 +17,7 @@ require "pry"
 phrase = "I LOVE YOU GRANDMA!"
 
 def speak_to_grandma(phrase)
-binding.pry
+
 if phrase == "I LOVE YOU GRANDMA!"
 return "I LOVE YOU TOO PUMPKIN!"
 elsif  phrase.upcase == phrase
