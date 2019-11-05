@@ -20,10 +20,10 @@ def speak_to_grandma(phrase)
 binding.pry
 if phrase == "I LOVE YOU GRANDMA!"
 return "I LOVE YOU TOO PUMPKIN!"
-elsif  phrase.downcase == phrase
-return "HUH?! SPEAK UP, SONNY!"
-else  phrase.upcase == phrase
+elsif  phrase.upcase == phrase
 return "NO, NOT SINCE 1938!"
+else  phrase.downcase == phrase
+return "HUH?! SPEAK UP, SONNY!"
 
 end 
 end 
