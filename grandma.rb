@@ -1,3 +1,4 @@
+require "pry"
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
@@ -21,6 +22,7 @@ if phrase == "I LOVE YOU GRANDMA!"
 return "I LOVE YOU TOO PUMPKIN!"
 elsif  phrase.downcase == phrase
 return "HUH?! SPEAK UP, SONNY!"
+binding.pry
 else  phrase.upcase == phrase
 return "NO, NOT SINCE 1938!"
 
